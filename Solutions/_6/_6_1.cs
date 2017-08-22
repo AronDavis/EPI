@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Solutions._6
 {
     /// <summary>
-    /// How would you compute the parity of a very large number of 64-bit words?  The parity of a binary word is 1 if the number of 1s is odd.  Otherwise it is 0.
+    /// https://en.wikipedia.org/wiki/Dutch_national_flag_problem
     /// </summary>
     public class _6_1
     {
