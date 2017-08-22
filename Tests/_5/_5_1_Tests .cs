@@ -5,7 +5,7 @@ using Solutions._5;
 namespace Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class _5_1_Tests
     {
         [TestMethod]
         public void Test()
