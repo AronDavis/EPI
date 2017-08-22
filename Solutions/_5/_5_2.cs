@@ -23,6 +23,7 @@ namespace Solutions._5
             int secondMask = 1 << secondIndex;
             int joinedMask = firstMask | secondMask;
 
+            //XOR to flip
             data ^= joinedMask;
 
             return data;
