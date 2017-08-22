@@ -50,12 +50,10 @@ namespace Solutions._6
                 }
                 else //no overflow
                 {
-                    int num = sum;
-                    
                     //reset carry
                     carry = 0;
 
-                    result.Insert(0, num);
+                    result.Insert(0, sum);
                 }
             }
 
