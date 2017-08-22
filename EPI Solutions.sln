@@ -3,14 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA458D17-414E-4534-A1AA-06B0D5C96518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FB54DEE3-4E12-4CDB-BF97-24D5F9B7FCD3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D39A5168-60A4-4FDD-BBD3-9FD222F76A9D}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EPI Solutions", "src\EPI Solutions\EPI Solutions.xproj", "{86DDE2E6-9711-4E10-A70C-BE924AF78F55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solutions", "Solutions\Solutions.csproj", "{9EF9C6AE-0A21-443B-A4DB-E8BA54711240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86DDE2E6-9711-4E10-A70C-BE924AF78F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86DDE2E6-9711-4E10-A70C-BE924AF78F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86DDE2E6-9711-4E10-A70C-BE924AF78F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86DDE2E6-9711-4E10-A70C-BE924AF78F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB54DEE3-4E12-4CDB-BF97-24D5F9B7FCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB54DEE3-4E12-4CDB-BF97-24D5F9B7FCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB54DEE3-4E12-4CDB-BF97-24D5F9B7FCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB54DEE3-4E12-4CDB-BF97-24D5F9B7FCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF9C6AE-0A21-443B-A4DB-E8BA54711240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF9C6AE-0A21-443B-A4DB-E8BA54711240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF9C6AE-0A21-443B-A4DB-E8BA54711240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF9C6AE-0A21-443B-A4DB-E8BA54711240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{86DDE2E6-9711-4E10-A70C-BE924AF78F55} = {EA458D17-414E-4534-A1AA-06B0D5C96518}
 	EndGlobalSection
 EndGlobal
